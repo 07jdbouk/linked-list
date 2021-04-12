@@ -1,0 +1,15 @@
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/linked_list.deps.json
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/linked_list.runtimeconfig.json
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/linked_list.runtimeconfig.dev.json
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/linked_list.dll
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/ref/linked_list.dll
+/Users/yeet/_Documents/code/csharp/linked_list/bin/Debug/net5.0/linked_list.pdb
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.csprojAssemblyReference.cache
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.AssemblyInfoInputs.cache
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.AssemblyInfo.cs
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.csproj.CoreCompileInputs.cache
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.dll
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/ref/linked_list.dll
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.pdb
+/Users/yeet/_Documents/code/csharp/linked_list/obj/Debug/net5.0/linked_list.genruntimeconfig.cache
