@@ -10,6 +10,7 @@ namespace linked_list
 
             list.testAddItem();
             // list.testDisplay();
+            // list.testDeleteItem();
         }
     }
 
@@ -49,14 +50,31 @@ namespace linked_list
 
         public void testAddItem()
         {
-            addItem(2);
+            addItem(1);
             addItem(5);
             addItem(7);
             addItem(3);
             addItem(6);
+            addItem(4);
+            addItem(8);
+            addItem(2);
 
             display();
             //throw new NotImplementedException();
+        }
+
+        public void testDeleteItem()
+        {
+            addItem(6);
+            addItem(3);
+            addItem(7);
+            addItem(2);
+            addItem(5);
+
+            delete(6);
+            delete(2);
+
+            display();
         }
 
         public void display()
@@ -115,8 +133,14 @@ namespace linked_list
                             array[nextAvailable,1] = array[prevPointer,1];
                             array[prevPointer,1] = nextAvailable;
                         }
-
-                        prevPointer = nextPointer;
+                        
+                        if (nextPointer > -1)
+                        {
+                            prevPointer = nextPointer;
+                            nextPointer = array[prevPointer,1];
+                        }
+                        else
+                            break;
                     }
 
                     if (prevPointer == -1)
@@ -128,8 +152,28 @@ namespace linked_list
             }
 
             nextAvailable++;
+        }
 
-            // throw new NotImplementedException();
+        public int delete(int item)
+        {
+            int pointer = start;
+            int nextPointer = array[start,1];
+
+            while (pointer != -1)
+            {
+                if (array[nextPointer,0] == item)
+                {
+                    array[pointer,1] = array[nextPointer,1];
+                    array[nextPointer,0] = 0;
+                    break;
+                }
+                else {
+                    pointer = array[pointer,1];
+                    nextPointer = array[nextPointer,1];
+                }
+            }
+
+            return -1;
         }
     }
 }
